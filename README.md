@@ -1,12 +1,12 @@
 pod-template
 ============
 
-An opinionated template for creating a Pod with the following features:
+Template for creating TriforkKRK OpenSource Pod with the following features:
 
 - Git as the source control management system.
 - Clean folder structure.
 - Project generation
-- MIT license.
+- Apache v2 license.
 - Testing as a standard
 - Turnkey access to Travis CI
 

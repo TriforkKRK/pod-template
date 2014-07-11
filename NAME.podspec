@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "${POD_NAME}"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "A short description of ${POD_NAME}."
   s.description      = <<-DESC
                        An optional longer description of ${POD_NAME}
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/${POD_NAME}"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.homepage         = "https://github.com/TriforkKRK/${POD_NAME}"
+  
+  s.license          = 'Apache v2'
   s.author           = { "${USER_NAME}" => "${USER_EMAIL}" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/${POD_NAME}.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/TriforkKRK/${POD_NAME}.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
-
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.source_files     = 'Pod/**/*.{h,m}'
+  s.resources        = 'Pod/Assets/*.png'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  
+  # s.frameworks     = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
