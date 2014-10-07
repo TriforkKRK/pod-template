@@ -22,9 +22,13 @@ Pod::Spec.new do |s|
   s.license          = 'Apache v2'
   s.author           = { "${USER_NAME}" => "${USER_EMAIL}" }
   s.source           = { :git => "https://github.com/TriforkKRK/${POD_NAME}.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
+  s.resource_bundles = {
+    '${POD_NAME}' => ['Pod/Assets/*.png']
+  }
   s.source_files     = 'Pod/**/*.{h,m}'
   s.resources        = 'Pod/Assets/*.png'
   # s.public_header_files = 'Pod/Classes/**/*.h'
