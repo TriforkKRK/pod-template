@@ -1,15 +1,10 @@
 # ${POD_NAME}
+============
 
 [![CI Status](http://img.shields.io/travis/${USER_NAME}/${REPO_NAME}.svg?style=flat)](https://travis-ci.org/${USER_NAME}/${REPO_NAME})
 [![Version](https://img.shields.io/cocoapods/v/${POD_NAME}.svg?style=flat)](http://cocoadocs.org/docsets/${POD_NAME})
 [![License](https://img.shields.io/cocoapods/l/${POD_NAME}.svg?style=flat)](http://cocoadocs.org/docsets/${POD_NAME})
 [![Platform](https://img.shields.io/cocoapods/p/${POD_NAME}.svg?style=flat)](http://cocoadocs.org/docsets/${POD_NAME})
-
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -24,5 +19,5 @@ ${USER_NAME}, ${USER_EMAIL}
 
 ## License
 
-${POD_NAME} is available under the MIT license. See the LICENSE file for more info.
+${POD_NAME} is available under the Apache v2 license. See the LICENSE file for more info.
 
